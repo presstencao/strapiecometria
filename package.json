@@ -1,5 +1,5 @@
 {
-  "name": "ssdstrapi",
+  "name": "api-ecometria-eco-br",
   "private": true,
   "version": "0.1.0",
   "description": "A Strapi application",
@@ -9,23 +9,24 @@
     "build": "strapi build",
     "strapi": "strapi"
   },
+  "devDependencies": {},
   "dependencies": {
-    "@strapi/plugin-documentation": "^4.3.8",
-    "@strapi/plugin-i18n": "4.3.8",
-    "@strapi/plugin-users-permissions": "4.3.8",
-    "@strapi/provider-upload-cloudinary": "^4.3.8",
-    "@strapi/strapi": "4.3.8",
-    "mysql": "2.18.1",
-    "strapi-plugin-populate-deep": "^0.1.2"
+    "@_sh/strapi-plugin-ckeditor": "^1.1.2",
+    "@strapi/strapi": "4.4.3",
+    "@strapi/plugin-users-permissions": "4.4.3",
+    "@strapi/plugin-i18n": "4.4.3",
+    "@strapi/provider-email-sendgrid": "^4.4.3",
+    "strapi-plugin-populate-deep": "^0.1.2",
+    "mysql": "2.18.1"
   },
   "author": {
     "name": "A Strapi developer"
   },
   "strapi": {
-    "uuid": "e086983f-d4be-4d1d-8fef-40fa25c92661"
+    "uuid": "22ad7051-9fdb-49d7-8af0-1e24ae777685"
   },
   "engines": {
-    "node": ">=14.19.1 <=16.x.x",
+    "node": ">=14.19.1 <=18.x.x",
     "npm": ">=6.0.0"
   },
   "license": "MIT"
